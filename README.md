@@ -48,3 +48,8 @@ pip freeze
 ```
 
 11. creas tu nuevo app.py o como quieras llamarlo y metes la info. Puedes mirar como referencia: https://github.com/tonythree/app-raul
+
+12. Para correr una app en flask
+```
+flask run
+```
