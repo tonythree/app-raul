@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>List of posts:</h1>
+<span style="font-size:100px;">{{total_users}}</span>
+<h2>Total usuarios</h2>
+
+<br>
+<br>
+
+<h2>Posts por usuario: </h2>
+{% for user in diccionario %}
+	{{user}}
+{% endfor %}
+
+{% for post in posts %}
+	<h5>User: {{post['userId']}}</h5>
+	<p><b>{{post['title']}}</b></p>
+	<p>{{post['body']}}</p>
+{% endfor %}
+</body>
+</html>
